@@ -3,9 +3,9 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
 	(symbol "STM32G441KBT6"
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(property "Reference" "U"
 			(at 0 45.72 0)
 			(effects
@@ -776,9 +776,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "STM32G441KBT6_Detailed"
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(property "Reference" "U"
 			(at 0 45.72 0)
 			(effects
