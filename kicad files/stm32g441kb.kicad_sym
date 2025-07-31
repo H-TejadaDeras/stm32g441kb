@@ -52,7 +52,19 @@
 		(symbol "STM32G441KBT6_0_1"
 			(polyline
 				(pts
-					(xy -36.83 22.86) (xy -35.56 22.86) (xy -35.56 6.35) (xy -36.83 6.35)
+					(xy -36.83 40.64) (xy -35.56 40.64) (xy -35.56 33.02) (xy -36.83 33.02)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -36.83 29.21) (xy -35.56 29.21) (xy -35.56 21.59) (xy -36.83 21.59)
 				)
 				(stroke
 					(width 0)
@@ -135,8 +147,17 @@
 					(type none)
 				)
 			)
-			(text " Power"
-				(at -35.56 14.732 0)
+			(text " 3.3 V"
+				(at -35.56 36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text " GND"
+				(at -35.56 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -197,7 +218,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 21.59 0)
+				(at -44.45 39.37 0)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -215,7 +236,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 19.05 0)
+				(at -44.45 36.83 0)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -233,7 +254,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 16.51 0)
+				(at -44.45 34.29 0)
 				(length 2.54)
 				(name "VDDA"
 					(effects
@@ -251,7 +272,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 12.7 0)
+				(at -44.45 27.94 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -269,7 +290,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 10.16 0)
+				(at -44.45 25.4 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -287,7 +308,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 7.62 0)
+				(at -44.45 22.86 0)
 				(length 2.54)
 				(name "VSSA"
 					(effects
@@ -825,7 +846,19 @@
 		(symbol "STM32G441KBT6_Detailed_0_1"
 			(polyline
 				(pts
-					(xy -36.83 22.86) (xy -35.56 22.86) (xy -35.56 6.35) (xy -36.83 6.35)
+					(xy -36.83 40.64) (xy -35.56 40.64) (xy -35.56 33.02) (xy -36.83 33.02)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -36.83 29.21) (xy -35.56 29.21) (xy -35.56 21.59) (xy -36.83 21.59)
 				)
 				(stroke
 					(width 0)
@@ -908,8 +941,17 @@
 					(type none)
 				)
 			)
-			(text " Power"
-				(at -35.56 14.732 0)
+			(text " 3.3 V"
+				(at -35.56 36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text " GND"
+				(at -35.56 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -970,7 +1012,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 21.59 0)
+				(at -44.45 39.37 0)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -988,7 +1030,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 19.05 0)
+				(at -44.45 36.83 0)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -1006,7 +1048,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 16.51 0)
+				(at -44.45 34.29 0)
 				(length 2.54)
 				(name "VDDA"
 					(effects
@@ -1024,7 +1066,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 12.7 0)
+				(at -44.45 27.94 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -1042,7 +1084,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 10.16 0)
+				(at -44.45 25.4 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -1060,7 +1102,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 7.62 0)
+				(at -44.45 22.86 0)
 				(length 2.54)
 				(name "VSSA"
 					(effects
