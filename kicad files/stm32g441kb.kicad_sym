@@ -491,218 +491,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SPX3819M5-L-3-3_TR"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 0 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Value" "SPX3819M5-L-3-3_TR"
-			(at 0 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "stm32g441kbt6:SOIC127P600X175-8N"
-			(at 26.67 -94.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.exar.com/ds/spx3819.pdf"
-			(at 26.67 -194.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "LDO Voltage Regulators 500mA LOW NOISE LDO"
-			(at 0 0.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 26.67 -394.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "701-SPX3819M5-L-33TR"
-			(at 26.67 -494.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/MaxLinear/SPX3819M5-L-3-3-TR?qs=S%2FCBhQS5rCp1Bb7a%252BD%2FCBQ%3D%3D"
-			(at 26.67 -594.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "MaxLinear, Inc."
-			(at 26.67 -694.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SPX3819M5-L-3-3/TR"
-			(at 26.67 -794.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(symbol "SPX3819M5-L-3-3_TR_1_1"
-			(rectangle
-				(start -10.16 5.08)
-				(end 10.16 -5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin passive line
-				(at -15.24 2.54 0)
-				(length 5.08)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -15.24 0 0)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -15.24 -2.54 0)
-				(length 5.08)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 2.54 180)
-				(length 5.08)
-				(name "BYP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 0 180)
-				(length 5.08)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "STM32G441KBT6"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 45.72 0)
+			(at 0 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -710,7 +504,7 @@
 			)
 		)
 		(property "Value" "STM32G441KBT6"
-			(at 0 43.434 0)
+			(at 0 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -727,7 +521,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g441kb.pdf"
-			(at 0 0 0)
+			(at 1.524 0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,96 +538,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "STM32G441KBT6_0_1"
-			(polyline
-				(pts
-					(xy -36.83 40.64) (xy -35.56 40.64) (xy -35.56 33.02) (xy -36.83 33.02)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -36.83 29.21) (xy -35.56 29.21) (xy -35.56 21.59) (xy -36.83 21.59)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -27.94 -31.75) (xy -26.67 -31.75) (xy -26.67 -36.83) (xy -27.94 -36.83)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -19.05 17.78) (xy -20.32 17.78) (xy -20.32 40.64) (xy -19.05 40.64)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -19.05 15.24) (xy -20.32 15.24) (xy -20.32 -10.16) (xy -19.05 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -11.43 -29.21) (xy -10.16 -29.21) (xy -10.16 -24.13) (xy -11.43 -24.13)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 -21.59) (xy -3.81 -21.59) (xy -3.81 -13.97) (xy -5.08 -13.97)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "STM32G441KBT6_1_1"
 			(rectangle
-				(start -41.91 41.91)
-				(end 41.91 -41.91)
+				(start -33.02 42.8625)
+				(end 33.02 -43.1799)
 				(stroke
 					(width 0)
 					(type solid)
@@ -843,70 +551,16 @@
 					(color 255 255 194 1)
 				)
 			)
-			(text " 3.3 V"
-				(at -35.56 36.83 0)
+			(text "Note: Pins with an asterisk (*) can tolerate voltages up to 3.6 V\n"
+				(at 0 -36.068 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
-				)
-			)
-			(text " GND"
-				(at -35.56 25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text "3.6 V Pins "
-				(at -20.32 29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "5 V Pins "
-				(at -20.32 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(text "Crystal Oscillator"
-				(at -17.78 -34.29 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text " CAN"
-				(at -10.16 -26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(text " Programming"
-				(at -3.81 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
 				)
 			)
 			(text "OEM STM32G441KBT6 Standard Configuration\nv1.0 (07-25-2025)"
-				(at 0 -39.37 0)
+				(at 0 -40.386 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -914,7 +568,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 39.37 0)
+				(at -35.56 40.64 0)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -932,7 +586,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 36.83 0)
+				(at -35.56 38.1 0)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -950,7 +604,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 34.29 0)
+				(at -35.56 35.56 0)
 				(length 2.54)
 				(name "VDDA"
 					(effects
@@ -968,7 +622,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 27.94 0)
+				(at -35.56 30.48 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -986,7 +640,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 25.4 0)
+				(at -35.56 27.94 0)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -1004,7 +658,7 @@
 				)
 			)
 			(pin power_in line
-				(at -44.45 22.86 0)
+				(at -35.56 25.4 0)
 				(length 2.54)
 				(name "VSSA"
 					(effects
@@ -1022,9 +676,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -44.45 -15.24 0)
+				(at 35.56 40.64 180)
 				(length 2.54)
-				(name "PG10-NRST(GPIO_EXTI10)"
+				(name "(GPIO_EXTI10)PG10-NRST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1040,9 +694,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -44.45 -17.78 0)
+				(at 35.56 38.1 180)
 				(length 2.54)
-				(name "PA13(GPIO_EXTI13/SYS_JTMS-SWDIO)"
+				(name "(SYS_JTMS-SWDIO/GPIO_EXTI13)PA13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1058,9 +712,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -44.45 -20.32 0)
+				(at 35.56 35.56 180)
 				(length 2.54)
-				(name "PA14(GPIO_EXTI14/SYS_JTCK-SWCLK)"
+				(name "(SYS_JTCK-SWCLK/GPIO_EXTI14)PA14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1076,9 +730,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -44.45 -25.4 0)
+				(at 35.56 30.48 180)
 				(length 2.54)
-				(name "PA11(GPIO_EXTI11/FDCAN1_RX)"
+				(name "(FDCAN1_RX/GPIO_EXTI11)PA11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1094,9 +748,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -44.45 -27.94 0)
+				(at 35.56 27.94 180)
 				(length 2.54)
-				(name "PA12(GPIO_EXTI12/FDCAN1_TX)"
+				(name "(FDCAN1_TX/GPIO_EXTI12)PA12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1112,7 +766,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -44.45 -33.02 0)
+				(at 35.56 22.86 180)
 				(length 2.54)
 				(name "PF0-OSC_IN"
 					(effects
@@ -1130,7 +784,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -44.45 -35.56 0)
+				(at 35.56 20.32 180)
 				(length 2.54)
 				(name "PF1-OSC_OUT"
 					(effects
@@ -1148,7 +802,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 39.37 180)
+				(at 35.56 15.24 180)
 				(length 2.54)
 				(name "(TIM2_ETR/TIM2_CH1/GPIO_EXTI0/ADC2_IN1/ADC1_IN1)PA0*"
 					(effects
@@ -1166,7 +820,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 36.83 180)
+				(at 35.56 12.7 180)
 				(length 2.54)
 				(name "(TIM15_CH1N/TIM2_CH2/GPIO_EXTI1/ADC2_IN2/ADC1_IN2)PA1*"
 					(effects
@@ -1184,7 +838,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 34.29 180)
+				(at 35.56 10.16 180)
 				(length 2.54)
 				(name "(TIM15_CH1/USART2_TX/TIM2_CH3/GPIO_EXTI2/ADC1_IN3)PA2*"
 					(effects
@@ -1202,7 +856,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 31.75 180)
+				(at 35.56 7.62 180)
 				(length 2.54)
 				(name "(TIM15_CH2/USART2_RX/TIM2_CH4/GPIO_EXTI3/ADC1_IN4)PA3*"
 					(effects
@@ -1220,7 +874,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 29.21 180)
+				(at 35.56 5.08 180)
 				(length 2.54)
 				(name "(USART2_CK/TIM3_CH2/GPIO_EXTI4/ADC2_IN17)PA4*"
 					(effects
@@ -1238,7 +892,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 26.67 180)
+				(at 35.56 2.54 180)
 				(length 2.54)
 				(name "(TIM2_ETR/TIM2_CH1/GPIO_EXTI5/ADC2_IN13)PA5*"
 					(effects
@@ -1256,7 +910,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 24.13 180)
+				(at 35.56 0 180)
 				(length 2.54)
 				(name "(TIM3_CH1/TIM16_CH1/GPIO_EXTI6/ADC2_IN3)PA6*"
 					(effects
@@ -1274,7 +928,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 21.59 180)
+				(at 35.56 -2.54 180)
 				(length 2.54)
 				(name "(TIM3_CH2/TIM17_CH1/GPIO_EXTI7/ADC2_IN4)PA7*"
 					(effects
@@ -1292,7 +946,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 19.05 180)
+				(at 35.56 -5.08 180)
 				(length 2.54)
 				(name "(TIM3_CH3/GPIO_EXTI0/ADC1_IN15)PB0*"
 					(effects
@@ -1310,7 +964,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 13.97 180)
+				(at 35.56 -10.16 180)
 				(length 2.54)
 				(name "(TIM4_ETR/USART1_CK/GPIO_EXTI8)PA8"
 					(effects
@@ -1328,7 +982,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 11.43 180)
+				(at 35.56 -12.7 180)
 				(length 2.54)
 				(name "(TIM2_CH3/TIM15_BKIN/USART1_TX/GPIO_EXTI9)PA9"
 					(effects
@@ -1346,7 +1000,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 8.89 180)
+				(at 35.56 -15.24 180)
 				(length 2.54)
 				(name "(TIM2_CH4/USART1_RX/TIM17_BKIN/GPIO_EXTI10)PA10"
 					(effects
@@ -1364,7 +1018,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 6.35 180)
+				(at 35.56 -17.78 180)
 				(length 2.54)
 				(name "(TIM2_ETR/TIM2_CH1/GPIO_EXTI15)PA15"
 					(effects
@@ -1382,7 +1036,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 3.81 180)
+				(at 35.56 -20.32 180)
 				(length 2.54)
 				(name "(TIM3_ETR/SPI1_SCK/TIM4_ETR/TIM2_CH2/GPIO_EXTI3)PB3"
 					(effects
@@ -1400,7 +1054,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 1.27 180)
+				(at 35.56 -22.86 180)
 				(length 2.54)
 				(name "(TIM17_BKIN/SPI1_MISO/TIM3_CH1/TIM16_CH1/GPIO_EXTI4)PB4"
 					(effects
@@ -1418,7 +1072,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 -1.27 180)
+				(at 35.56 -25.4 180)
 				(length 2.54)
 				(name "(TIM17_CH1/SPI1_MOSI/TIM3_CH2/TIM16_BKIN/GPIO_EXTI5)PB5"
 					(effects
@@ -1436,7 +1090,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 -3.81 180)
+				(at 35.56 -27.94 180)
 				(length 2.54)
 				(name "(TIM4_CH1/TIM16_CH1N/GPIO_EXTI6)PB6"
 					(effects
@@ -1454,7 +1108,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 -6.35 180)
+				(at 35.56 -30.48 180)
 				(length 2.54)
 				(name "(TIM3_CH4/TIM4_CH2/TIM17_CH1N/GPIO_EXTI7)PB7"
 					(effects
@@ -1472,7 +1126,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 44.45 -8.89 180)
+				(at 35.56 -33.02 180)
 				(length 2.54)
 				(name "(TIM4_CH3/TIM16_CH1/GPIO_EXTI8)PB8-BOOT0"
 					(effects
