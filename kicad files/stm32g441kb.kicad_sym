@@ -2,6 +2,364 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
+	(symbol "AP63203WU-7"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 9.398 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AP63203WU-7"
+			(at 0 6.858 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "stm32g441kbt6:AP63203WU-7_DIO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "AP63203WU-7"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "AP63203WU-7_DIO AP63203WU-7_DIO-M AP63203WU-7_DIO-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AP63203WU-7_0_1"
+			(pin output line
+				(at -11.43 2.54 0)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 0 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 11.43 2.54 180)
+				(length 2.54)
+				(name "BST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 0 180)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 -2.54 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AP63203WU-7_1_1"
+			(rectangle
+				(start -8.89 5.08)
+				(end 8.89 -5.08)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
+			(pin power_in line
+				(at -11.43 -2.54 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "L_3.9uH"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at -1.27 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L_3.9uH"
+			(at 1.905 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stm32g441kbt6:IND_BOURNS_SRR5018"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRR5018.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "L_3.9uH_0_1"
+			(arc
+				(start 0 2.54)
+				(mid 0.6323 1.905)
+				(end 0 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.27)
+				(mid 0.6323 0.635)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.6323 -0.635)
+				(end 0 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.27)
+				(mid 0.6323 -1.905)
+				(end 0 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "L_3.9uH_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "MCP2561-E_SN"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -116,8 +474,8 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 3.81 0)
-				(length 5.08)
+				(at -11.43 3.81 0)
+				(length 2.54)
 				(name "TXD"
 					(effects
 						(font
@@ -134,8 +492,8 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 1.27 0)
-				(length 5.08)
+				(at -11.43 1.27 0)
+				(length 2.54)
 				(name "VSS"
 					(effects
 						(font
@@ -152,8 +510,8 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -1.27 0)
-				(length 5.08)
+				(at -11.43 -1.27 0)
+				(length 2.54)
 				(name "VDD"
 					(effects
 						(font
@@ -170,8 +528,8 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -3.81 0)
-				(length 5.08)
+				(at -11.43 -3.81 0)
+				(length 2.54)
 				(name "RXD"
 					(effects
 						(font
@@ -188,8 +546,8 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 3.81 180)
-				(length 5.08)
+				(at 11.43 3.81 180)
+				(length 2.54)
 				(name "STBY"
 					(effects
 						(font
@@ -206,8 +564,8 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 1.27 180)
-				(length 5.08)
+				(at 11.43 1.27 180)
+				(length 2.54)
 				(name "CANH"
 					(effects
 						(font
@@ -224,8 +582,8 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -1.27 180)
-				(length 5.08)
+				(at 11.43 -1.27 180)
+				(length 2.54)
 				(name "CANL"
 					(effects
 						(font
@@ -242,8 +600,8 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -3.81 180)
-				(length 5.08)
+				(at 11.43 -3.81 180)
+				(length 2.54)
 				(name "SPLIT"
 					(effects
 						(font
@@ -399,8 +757,8 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 2.54 0)
-				(length 3.81)
+				(at -3.81 2.54 0)
+				(length 2.54)
 				(name "Pin_1"
 					(effects
 						(font
@@ -417,8 +775,8 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 0 0)
-				(length 3.81)
+				(at -3.81 0 0)
+				(length 2.54)
 				(name "Pin_3"
 					(effects
 						(font
@@ -435,8 +793,8 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -2.54 0)
-				(length 3.81)
+				(at -3.81 -2.54 0)
+				(length 2.54)
 				(name "Pin_4"
 					(effects
 						(font
@@ -453,8 +811,8 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 2.54 180)
-				(length 3.81)
+				(at 6.35 2.54 180)
+				(length 2.54)
 				(name "Pin_2"
 					(effects
 						(font
@@ -471,8 +829,8 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -2.54 180)
-				(length 3.81)
+				(at 6.35 -2.54 180)
+				(length 2.54)
 				(name "Pin_5"
 					(effects
 						(font
