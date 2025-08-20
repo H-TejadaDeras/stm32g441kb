@@ -5970,6 +5970,16 @@
 		)
 		(uuid "28401834-757b-4771-adb0-011c918e581c")
 	)
+	(text "Layout Note: Use recommended layout in datasheet (p. 15)."
+		(exclude_from_sim no)
+		(at 228.6 128.016 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f8fcf2c-e09c-43dd-8aac-cfe8f8563046")
+	)
 	(text "<- Transceiver needs to be in Normal Mode.\n(sec. 1.1.2 in datasheet)"
 		(exclude_from_sim no)
 		(at 238.506 154.432 0)
@@ -5990,6 +6000,16 @@
 			)
 		)
 		(uuid "536fa549-c989-4e2a-a11f-84d7ab63267d")
+	)
+	(text "From Typical Application Circuit in datasheet (p. 6; figure 1-1)."
+		(exclude_from_sim no)
+		(at 234.442 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e68f1e9-f92f-4734-9b3e-4fc0446cd135")
 	)
 	(text "NRST Pin Protection\n(sec. 5.3.15 in datasheet)"
 		(exclude_from_sim no)
@@ -6041,6 +6061,16 @@
 		)
 		(uuid "cf3fd6dd-4b1d-4743-8d22-8a68dd02f769")
 	)
+	(text "External Crystal Oscillator\n(sec. 5.3.7 in datasheet)"
+		(exclude_from_sim no)
+		(at 168.91 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df38dc58-3af0-4340-b5b4-b7e41b675906")
+	)
 	(text "Layout Note: Each 0.1 uF capacitor\ncorresponds to one VDD pin."
 		(exclude_from_sim no)
 		(at 13.462 101.6 0)
@@ -6061,6 +6091,16 @@
 			)
 		)
 		(uuid "fb440cb3-e2a8-4ba2-8157-44cb17b511e5")
+	)
+	(text "From Typical Application Circuit in datasheet (p. 9) with inductor value from Table 2 (p. 13)."
+		(exclude_from_sim no)
+		(at 235.966 124.714 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff17f146-2534-4eec-87b6-ccd187288e5c")
 	)
 	(text_box "12 V (5 V) -> 3.3 V Voltage Rectifier"
 		(exclude_from_sim no)
