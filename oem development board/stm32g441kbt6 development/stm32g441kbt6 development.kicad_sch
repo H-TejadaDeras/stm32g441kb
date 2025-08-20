@@ -6,6 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "STM32G441KBT6 Development Board")
+		(date "2025-08-20")
+		(rev "1")
 		(comment 1 "Hardware: Henry Tejada Deras; Firmware: Jacob Likins")
 	)
 	(lib_symbols
